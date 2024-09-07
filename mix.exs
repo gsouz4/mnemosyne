@@ -3,10 +3,10 @@ defmodule DesafioCli.MixProject do
 
   def project do
     [
-      app: :desafio_cli,      
+      app: :mnemosyne,
       version: "0.1.0",
       elixir: "~> 1.16",
-      escript: [main_module: DesafioCli],
+      escript: [main_module: Mnemosyne],
       deps: deps()
     ]
   end
