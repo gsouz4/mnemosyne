@@ -1,4 +1,4 @@
-# Template para Desafio CLI
+# Mnemosyne - Goddess of Memory
 
 In Greek mythology and ancient Greek religion, Mnemosyne (/nɪˈmɒzɪniː, nɪˈmɒsɪniː/; Ancient Greek: Μνημοσύνη, pronounced [mnɛːmosýːnɛː]) is the goddess of memory and the mother of the nine Muses by her nephew Zeus.
 In the Greek tradition, Mnemosyne is one of the Titans, the twelve divine children of the earth-goddess Gaia and the sky-god Uranus.
