@@ -1,16 +1,14 @@
 # Template para Desafio CLI
 
-Este template tem o objetivo de servir como 
-ponto de partida para a implementação de desafios
-de contratação da Cumbuca que envolvam implementar
-uma interface de linha de comando em Elixir.
+In Greek mythology and ancient Greek religion, Mnemosyne (/nɪˈmɒzɪniː, nɪˈmɒsɪniː/; Ancient Greek: Μνημοσύνη, pronounced [mnɛːmosýːnɛː]) is the goddess of memory and the mother of the nine Muses by her nephew Zeus.
+In the Greek tradition, Mnemosyne is one of the Titans, the twelve divine children of the earth-goddess Gaia and the sky-god Uranus.
+The term Mnemosyne is derived from the same source as the word mnemonic, that being the Greek word mnēmē, which means "remembrance, memory"
+- https://en.wikipedia.org/wiki/Mnemosyne
 
-## Pré-requisitos
-
-Primeiro, será necessário [instalar o Elixir](https://elixir-lang.org/install.html)
-em versão igual ou superior a 1.16.
-Com o Elixir instalado, você terá a ferramenta de build `mix`.
-
-Para buildar o projeto, use o comando `mix escript.build` nesta pasta.
-Isso irá gerar um binário com o mesmo nome do projeto na pasta.
-Executando o binário, sua CLI será executada.
+### Possiveis melhorias e/ou ideias
+- Usar o módulo Agent para gerenciar o estado atual do banco
+- Criar um Map com o nível/level sendo a key e o valor sendo o estado atual.
+Pensei na possibilidade de ficar mais fácil de "commitar" os valores no nível 0 quando
+o programa for parado com o Ctrl + C, por exemplo. (Tentei fazer algo assim mas estava sofrendo e
+queria tentar a ideia de manter o estado atual do Map na stack com a chamada recursiva)
+- Na branch develop deixei a primeira implementação que consegui fazer funcionar
